@@ -30,16 +30,7 @@ bash
 Copy
 Edit
 npm install
-# or
-yarn
-Start the development server:
 
-bash
-Copy
-Edit
-npm run dev
-# or
-yarn dev
 Visit: http://localhost:5173
 
 ✨ Features
