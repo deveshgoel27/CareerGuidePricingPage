@@ -1,0 +1,517 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+  }
+
+  .logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #494A4D;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  .nav-items {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .nav-items li {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-items li a {
+    color: #494A4D;
+    text-decoration: none;
+  }
+  
+  .nav-items li:hover:not(.phone-number) {
+    background-color: #2C65BA;
+  }
+  
+  .nav-items li:hover:not(.phone-number) a {
+    color: white;
+  }
+  
+  .phone-number {
+    pointer-events: none;
+    color: #5352E0;
+  }
+
+.h1{
+    display: flex;
+    justify-content: center;
+    color: #3F444A;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-right: 61px;
+    font-size: 35px; margin-bottom: 6px;
+}
+
+
+  .ptag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    margin: -48px 50px 30px 0;
+  }
+  
+
+.hr{
+    background-color: #32C5D2;
+    font-weight: bolder;
+    height: 3px;
+    width: 33px;
+    border: none;
+}
+.img {
+    display: block;
+    margin-left: 75%;
+    margin-top: -56px;
+  }
+  
+
+.section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+  }
+  
+  .container1{
+    margin-top: 6%;
+        height: 650px;
+        width: 340px;
+        color: #3F444A;
+        border: 5px solid #32C5D2;
+        text-align: center;
+        cursor: pointer;
+  }
+  .container2 {
+    margin-top: 3%;
+    height: 900px;
+    width: 340px;
+    color: #3F444A;
+    border: 5px solid #32C5D2;
+    text-align: center;
+    cursor: pointer;
+
+  }
+  .container3 {
+    margin-top: 6%;
+    height: 860px;
+    width: 340px;
+    color: #3F444A;
+    border: 5px solid #32C5D2;
+    text-align: center;
+    cursor: pointer;
+
+    background-color: #32C5D2;
+  }
+
+
+  .heading1 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #3F444A;
+  }
+  
+  .highlighted-text {
+    background-color: #32C5D2; 
+    color: #3F444A;
+    padding: 3px 9px;
+    display: inline-block; 
+    margin-top: 15%;
+    transition: background-color 0.3s;
+  }
+
+  .highlighted-text:hover{
+        color: white;
+  }
+
+ 
+  .price{
+    text-decoration: line-through;
+    font-size: 39px;
+    font-weight:bolder;
+    color: #3F444A;
+  }
+
+.price:hover{
+  color: #32c5d2;
+}
+
+.price3{
+   text-decoration: line-through;
+  font-size: 39px;
+  font-weight:bolder;
+  color: #3F444A;
+}
+
+.price3:hover{
+  color: white;
+}
+
+  .finalDiscount {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #32C5D2;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .finalDiscount3 {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    color: #32C5D2;
+    padding: 10px 25px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .allHr {
+    border: none;                  
+    height: 1.5px;                  
+    background-color: black;
+    width: 70%;
+    margin: 10px auto;              
+  }
+  
+
+  .book{
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .button{
+    height: 7%;
+    width: 40%;
+    margin-top: 10%;
+    background-color: transparent;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .button2{
+    height: 5%;
+    width: 45%;
+    margin-top: 10%;
+    background-color: transparent;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .button3{
+    height: 5%;
+    width: 45%;
+    margin-top: 10%;
+    background-color: transparent;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover{
+    background-color: #3F444A;
+    color: white;
+  }
+  .button2:hover{
+    background-color: #3F444A;
+    color: white;
+  }
+  .button3:hover{
+    background-color: #3F444A;
+    color: white;
+  }
+
+  .book1{
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .heading3 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #3F444A;
+  }
+  
+  .highlighted-text3 {
+    background-color: white; 
+    color: #3F444A;
+    padding: 3px 9px;
+    display: inline-block; 
+    margin-top: 15%;
+    transition: background-color 0.3s;
+  }
+
+  .highlighted-text3:hover{
+    color: #32C5D2;
+}
+
+
+/* hero-section */
+
+.video-section{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8rem;
+  padding: 2rem;
+  margin-left: 25px;
+}
+
+.text-section{
+  max-width: 400px;
+}
+
+.badge {
+  background-color: #32C5D2;
+  color: white;
+  padding: 0.7rem 0.7rem;
+  border-radius: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.btn {
+  background-color: #f44336;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.badge1{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  color: #494A4D;
+  transition: background-color all ease-in-out 0.5s;
+}
+
+.badge1:hover{
+  color: #32C5D2;
+}
+
+
+.badge2{
+  font-family: "Roboto Condensed", sans-serif;
+  color: #5C6D80;
+}
+
+.hero{
+  margin-top: 5%;
+  background-color: #F7F7F7;
+}
+
+/* marquee section  */
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.carousel {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.carousel-page {
+  display: flex;
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+.carousel-item {
+  flex: 0 0 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  max-height: 80px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+    /* review css */
+
+/* Layout grid for all cards */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #F7F7F7;
+}
+
+/* Common card block */
+.card-block {
+  width: 350px;
+  border-radius: 8px;
+  background:white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+/* Review card specific styling */
+.review-card p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #3F444A;
+}
+
+/* Reviewer section (image and name) */
+.review-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.review-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.reviewer-name {
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.reviewer-title {
+  color: #3F444A;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* faq css */
+
+/* FAQ Section */
+.faq-container {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #3f444a;
+}
+
+.faq-heading {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+
+.faq-subheading {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #5d6974;
+  margin-bottom: 30px;
+}
+
+/* Individual FAQ Item */
+.faq-item {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Question Bar */
+.faq-question {
+  background-color: #32c5d2;
+  color: white;
+  padding: 20px 30px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* Toggle Sign */
+.toggle-sign {
+  font-size: 1.5rem;
+}
+
+/* Answer Box */
+.answer {
+  background-color: white;
+  color: #5d6974;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 1rem;
+  border: 1px solid #32c5d2;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
